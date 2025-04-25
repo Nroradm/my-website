@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Логопед Ангелина Юрьевна</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ангелина Юрьевна</h1>
+      <p>Логопед. Индивидуальные занятия для детей.</p>
+      <a href="#contact" class="btn" id="bookBtn">Записаться</a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <a href="#services">Услуги</a>
+      <a href="#about">Обо мне</a>
+      <a href="#contact">Контакты</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="services">
+      <h2>Услуги</h2>
+      <div class="card-grid">
+        <div class="card">
+          <button class="accordion">Диагностика речи</button>
+          <div class="panel">
+            <p>Определение уровня речевого развития и выявление проблемных областей.</p>
+          </div>
+        </div>
+        <div class="card">
+          <button class="accordion">Коррекция звукопроизношения</button>
+          <div class="panel">
+            <p>Занятия, направленные на исправление произношения звуков.</p>
+          </div>
+        </div>
+        <div class="card">
+          <button class="accordion">Занятия для дошкольников</button>
+          <div class="panel">
+            <p>Игровые методики для развития речи у малышей.</p>
+          </div>
+        </div>
+        <div class="card">
+          <button class="accordion">Работа с заиканием</button>
+          <div class="panel">
+            <p>Методы и техники для преодоления заикания.</p>
+          </div>
+        </div>
+        <div class="card">
+          <button class="accordion">Консультации для родителей</button>
+          <div class="panel">
+            <p>Как поддерживать развитие речи ребенка в домашних условиях.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Обо мне</h2>
+      <p>
+        Я — Ангелина Юрьевна, дипломированный логопед. Работаю с детьми от 3 до 12 лет. 
+        Помогаю развивать речь, устранять дефекты и находить уверенность в общении.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Контакты</h2>
+      <ul class="contact-list">
+        <li><strong>Телефон:</strong> <a href="tel:+79607344089">+7 (960) 734-40-89</a></li>
+        <li><strong>Email:</strong> <a href="mailto:angelina.nizova23@yandex.com">angelina.nizova23@yandex.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ангелина Юрьевна — логопед</p>
+  </footer>
+
+  <!-- Модальное окно -->
+  <div id="bookingModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Записаться на занятие</h2>
+      <p>Позвоните мне по номеру:</p>
+      <a href="tel:+79607344089" class="modal-btn">+7 (960) 734-40-89</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
